@@ -28,6 +28,7 @@ This program has function to insert data from CSV to HBASE using Java and Spark.
     <td>...</th>
     <td>45</td>
   </tr>
+</table>
 
 ### Arguments
 args[0]: Tables name

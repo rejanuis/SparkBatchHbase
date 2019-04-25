@@ -31,10 +31,10 @@ This program has function to insert data from CSV to HBASE using Java and Spark.
 </table>
 
 ### Arguments
-args[0]: Tables name
-args[1]: Host of zookeeper
-args[2]: Host of hbase master
-args[2]: Path CSV file
+- args[0]: Tables name
+- args[1]: Host of zookeeper
+- args[2]: Host of hbase master
+- args[2]: Path CSV file
 
 <br />
 

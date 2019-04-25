@@ -21,16 +21,11 @@ import java.io.IOException;
 public class BatchHbaseFromCSV {
     public static void main(String[] args) throws IOException {
         // Initialize global variable
-//        String tablesname = args[0];
-//        String zkquorum = args[1];
-//        String hbasemaster = args[2];
-//        String pathfilecsv = args[3];
+        String tablesname = args[0];
+        String zkquorum = args[1];
+        String hbasemaster = args[2];
+        String pathfilecsv = args[3];
 
-        // get paramtere from livy
-        String tablesname = "winevariety";
-        String zkquorum = "192.168.114.84,192.168.114.171,192.168.114.172";
-        String hbasemaster = "192.168.114.84";
-        String pathfilecsv = "file:///home/ebdesk/IdeaProjects/SparkBatchHbase/winemag-data_first150k2.csv";
 
         // Initialize spark
         HbaseConf confs = new HbaseConf(tablesname, hbasemaster, zkquorum);

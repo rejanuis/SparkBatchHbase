@@ -2,7 +2,6 @@
 This program has function to insert data from CSV to HBASE using Java and Spark.
 
 <br />
-<br />
 
 ## Create Table & Details Table Hbase
 ### MongoDB
@@ -40,12 +39,10 @@ args[2]: Host of hbase master
 args[2]: Path CSV file
 
 <br />
-<br />
 
 ## How to compile this project
 <pre>mvn clean install</pre>
 
-<br />
 <br />
 
 ## Running the program
